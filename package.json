@@ -1,6 +1,6 @@
 {
-    "name": "node-red-contrib-tfjs-coco-ssd",
-    "version": "0.5.6",
+    "name": "@kitazaki/node-red-contrib-tfjs-coco-ssd",
+    "version": "0.0.1",
     "description": "A Node-RED node that uses tensorflowjs for object detection.",
     "dependencies": {
         "@tensorflow-models/coco-ssd": "2.0.3",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dceejay/tfjs-coco-ssd"
+        "url": "https://github.com/kitazaki/tfjs-coco-ssd"
     },
     "license": "Apache-2.0",
     "keywords": [
@@ -26,9 +26,8 @@
         }
     },
     "author": {
-        "name": "Dave Conway-Jones",
-        "email": "ceejay@vnet.ibm.com",
-        "url": "http://nodered.org"
+        "name": "kitazaki",
+        "email": "kitazaki@gmail.com"
     },
     "scripts": {
         "postinstall": "node fixwindll.js",
