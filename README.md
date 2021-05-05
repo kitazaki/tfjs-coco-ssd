@@ -5,11 +5,13 @@ A Node-RED node for Object Detection using TensorFlowJS CoCo SSD.
 
 **NOTE**: The Tensorflow.js library will be installed automatically.  However Tensorflow.js is only available on certain OS/Hardware/processor combinations.  Therfore it might not automatically work on all platforms, if you are unlucky...
 
+**NOTE**: This module includes arm64 patch for @tensorflow/tfjs-node. npm i again at node_modules/@tensorflow/tfjs-node/ after install of this module.
+
 ## Install
 
 Either use the Node-RED Menu - Manage Palette option, or run the following command in your Node-RED user directory - typically `~/.node-red`
 
-    npm i node-red-contrib-tfjs-coco-ssd
+    npm i @kitazaki/node-red-contrib-tfjs-coco-ssd
 
 ## Overview
 
