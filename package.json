@@ -32,5 +32,6 @@
     },
     "scripts": {
         "postinstall": "node fixwindll.js"
+        "postinstall": "node fixarm64.js"
     }
 }
