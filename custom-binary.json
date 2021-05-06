@@ -1,3 +1,3 @@
 {
-  "tf-lib": "https://drive.google.com/uc?id=1ZDdkMhVu-hOt_bflVw373u1HVJQqMm51"
+  "tf-lib": "https://cloud-object-storage-82-cos-standard-ztk.s3.jp-tok.cloud-object-storage.appdomain.cloud/libtensorflow-2.3.1-JetsonNano.tar.gz"
 }
