@@ -7,6 +7,8 @@ A Node-RED node for Object Detection using TensorFlowJS CoCo SSD.
 
 **NOTE**: This module includes arm64 patch for @tensorflow/tfjs-node. npm i again at node_modules/@tensorflow/tfjs-node/ after install of this module.
 
+**NOTE**: This release is for TensorFlow 2.x built with CUDA 10.2 and cuDNN 8.0 on Jetson Nano. (for JetPack 4.4/4.5)
+
 ## Install
 
 Either use the Node-RED Menu - Manage Palette option, or run the following command in your Node-RED user directory - typically `~/.node-red`

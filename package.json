@@ -1,10 +1,10 @@
 {
     "name": "@kitazaki/node-red-contrib-tfjs-coco-ssd",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "A Node-RED node that uses tensorflowjs for object detection.",
     "dependencies": {
-        "@tensorflow-models/coco-ssd": "2.0.3",
-        "@tensorflow/tfjs-node": "1.7.4",
+        "@tensorflow-models/coco-ssd": "^2.0.3",
+        "@tensorflow/tfjs-node": "2.8.6",
         "compression": "^1.7.4",
         "pureimage": "^0.2.5",
         "express": "^4.16.4"
